@@ -43,7 +43,7 @@ int base64_encode(char *output, char *input, int inputLen) {
 			output[encLen++] = '=';
 		}
 	}
-	output[encLen] = '\0';
+	//output[encLen] = '\0';
 	return encLen;
 }
 
